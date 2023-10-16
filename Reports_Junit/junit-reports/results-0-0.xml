@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="The Internet Guinea Pig Website" timestamp="2023-09-22T15:17:17" time="8.125" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="The Internet Guinea Pig Website"/>
+      <property name="capabilities" value="chrome.117_0_0_0.10_0_19045"/>
+      <property name="featureFile" value="file:///C:/test_io/features/login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.117_0_0_0.10_0_19045.The Internet Guinea Pig Website" name="As a user I can log into the secure area" time="8.091">
+      <system-out><![CDATA[
+✅ Given I am on the login page✅ When I login with ilyes_admin and Azertyu0147& and 1✅ Then I am able to view icons✅ Then I am able to view elements for admin site moode✅ Then I logout from the admin dashboard
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
