@@ -1,5 +1,5 @@
 @echo off
 echo Installation des dépendances...
-npm install
+
 echo Exécution des tests...
 npx wdio wdio.conf.js --suite feature1
