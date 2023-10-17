@@ -2,10 +2,10 @@
 echo Installation des dépendances...
 
 echo Exécution des tests1...
-npx wdio wdio.conf.js --suite feature1
+npx wdio wdio.conf.js --suite=feature1
 
 echo Exécution des tests3...
-npx wdio wdio.conf.js --suite feature3
+npx wdio wdio.conf.js --suite=feature3
 
 echo Exécution des tests2...
-npx wdio wdio.conf.js --suite feature2
+npx wdio wdio.conf.js --suite=feature2
