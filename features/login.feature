@@ -1,7 +1,7 @@
-Feature: The Internet Guinea Pig Website
-
+Feature: The Internet Guinea Pig Website  
+#name of the feature
   Scenario Outline: As a user, I can log into the secure area
-
+  #name of the scenario 
     Given I am on the login page
     When I login with <username> and <password> and <station>
     Then I am able to view icons

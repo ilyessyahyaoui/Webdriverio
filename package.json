@@ -10,6 +10,7 @@
     "@wdio/spec-reporter": "^8.11.2",
     "chromedriver": "^114.0.2",
     "wdio-chromedriver-service": "^8.1.1",
+    "wdio-cucumberjs-json-reporter": "^5.1.7",
     "wdio-geckodriver-service": "^5.0.2"
   },
   "scripts": {

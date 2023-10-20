@@ -339,15 +339,30 @@ export const config = {
   //     ],
   //   ],
 
-  //   reporters: [
-  //     [
-  //       "junit",
-  //       {
-  //         outputDir: "C:/test_io/Reports_Junit/junit-reports", // Specify the output directory for JUnit XML reports
-  //         outputFileFormat: function (opts) {
-  //           return `results-${opts.cid}.xml`;
-  //         },
+  // reporters: [
+  //   [
+  //     "junit",
+  //     {
+  //       outputDir: "C:/test_io/Reports_Junit/junit-reports", // Specify the output directory for JUnit XML reports
+  //       outputFileFormat: function (opts) {
+  //         return `results-${opts.cid}.xml`;
   //       },
-  //     ],
+  //     },
   //   ],
+  // ],
+  // ...
+  reporters: [
+    // Like this with the default options, see the options below
+    // "cucumberjs-json",
+
+  //   // OR like this if you want to set the folder and the language
+    [
+      "cucumberjs-json",
+      {
+        jsonFolder: ".tmp/new/",
+        language: "fr",
+      },
+    ],
+  ],
+  // ...
 };
