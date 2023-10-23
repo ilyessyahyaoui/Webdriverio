@@ -1,3 +1,4 @@
 *.exe
 /Reports_Allure/
+/Reports_Junit/
 /node_modules/

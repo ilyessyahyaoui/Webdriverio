@@ -359,8 +359,9 @@ export const config = {
     [
       "cucumberjs-json",
       {
-        jsonFolder: ".tmp/new/",
-        language: "fr",
+        jsonFolder: ".tmp/json/",
+        language: "en",
+        Name: "Rep",
       },
     ],
   ],
